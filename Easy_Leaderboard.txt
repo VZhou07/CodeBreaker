@@ -1,0 +1,6 @@
+easy mode leaderboard
+easy:1 guesses
+jjjjj:1 guesses
+stella:1 guesses
+jake:2 guesses
+joshua:3 guesses

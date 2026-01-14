@@ -1,0 +1,4 @@
+medium mode leaderboard
+abby:2 guesses
+jacky:3 guesses
+cindy:8 guesses
