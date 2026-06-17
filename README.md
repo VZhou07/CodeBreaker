@@ -1,7 +1,7 @@
 # CodeBreaker
 Author: Vincent Zhou
 
-TO RUN CODE: Change current directory to root directory and run MainCodeBreaker.java so txt files can be read properly.
+TO RUN CODE: Change current directory to root directory and run `MainCodeBreaker.java` so .txt files can be read properly.
 
 Description: A console-based Java implementation of Codebreaker AKA Mastermind, featuring an AI solver implemented with Donald Knuth's Minimax algorithm, guaranteeing a solution within 5 moves.
 
@@ -13,10 +13,10 @@ Persistent Leaderboard: Automatically tracks and saves high scores to local file
 
 
 The rules of Code Breaker are as following:
-One player will set a secret code, and the other player will try to guess it.
-The code length is 4 colours long and the possible colours are red,green,purple,yellow,orange,blue.
-The guesser will have 10 turns to try and guess the secret code created by the other player.
-After each guess, the code creator will give clues based on the guess. A black peg clue represents a colour in the correct position and correct colour, while a white peg clue represents wrong position but correct colour.
-If the guesser is not able to guess the secret code within 10 guesses, the code creator wins but if the code creator gives a wrong clue, they are disqualified and the guesser wins.
-In this program, black pegs are represented with b, white pegs are represented with w, and e represents no peg.
-In this program, you guess codes based on the first letter of colour in lowercase.
+One player will set a secret code, and the other player will try to guess it. The code length is 4 colours long and the possible colours are red, green, purple, yellow, orange, and blue. The guesser will have 10 turns to try and guess the secret code created by the other player. After each guess, the code creator will give clues based on the guess. A black peg clue represents a colour in the correct position and correct colour, while a white peg clue represents wrong position but correct colour. If the guesser is not able to guess the secret code within 10 guesses, the code creator wins but if the code creator gives a wrong clue, they are disqualified and the guesser wins. In this program, black pegs are represented with b, white pegs are represented with w, and e represents no peg.
+In this program, you guess codes based on the first letter of colour in lowercase. For example, to guess a the following code:
+red red black black, enter 
+```
+rrbb
+```
+into the terminal when prompted
